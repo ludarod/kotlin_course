@@ -19,7 +19,7 @@ fun Constantes(){
         Valores Alfanumericos
     */
 
-    val nameConstString:String = "Fichero de ejemplo de constante"
+    val nameConstString:String = "Fichero de ejemplo de constante se define con 'val'"
 
     val nameConstChar:Char = '@' // char values only cant store one alphanumeric character.
 
@@ -54,7 +54,9 @@ fun Variables(){
         Valores Alfanumericos
     */
 
-    var nameValueString:String = "Fichero de ejemplo de constante"
+    var nameVariableString:String = "Fichero de ejemplo de variables se define con 'var'"
 
-    var nameValueChar:Char = '@' // char values only cant store one alphanumeric character.
+    var nameVariableChar:Char = '@' // char values only cant store one alphanumeric character.
+
+    println(nameVariableString)
 }

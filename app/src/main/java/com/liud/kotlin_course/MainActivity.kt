@@ -14,4 +14,5 @@ class MainActivity : AppCompatActivity() {
 fun Main(){
     println("Bienvenido")
     println(Constantes())
+    println(AritmeticOperations())
 }
